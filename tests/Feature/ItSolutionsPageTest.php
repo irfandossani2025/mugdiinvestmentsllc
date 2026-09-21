@@ -16,6 +16,7 @@ class ItSolutionsPageTest extends TestCase
             ->assertSeeText('Websites & Digital Platforms')
             ->assertSeeText('Custom ERP Systems')
             ->assertSeeText('Custom AI Bots & Agents')
+            ->assertSee(route('ai-bots-agents'), false)
             ->assertSeeText('Integrations & Automation')
             ->assertSeeText('Cloud & Infrastructure')
             ->assertSeeText('Data, Dashboards & Security');

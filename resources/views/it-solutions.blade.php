@@ -56,11 +56,12 @@
             <p>Purpose-built business software that replaces disconnected spreadsheets and repetitive manual work with one reliable source of truth.</p>
             <ul><li>Sales, CRM and quotation workflows</li><li>Inventory, purchasing and suppliers</li><li>Finance and operational reporting</li><li>Roles, approvals and audit trails</li></ul>
         </article>
-        <article class="capability-card">
+        <article class="capability-card capability-card-linked">
             <div class="tech-icon">AI</div><span class="card-number">03</span>
             <h3>Custom AI Bots & Agents</h3>
             <p>Secure AI assistants trained around your services, processes and knowledge—built to support customers and help teams work faster.</p>
             <ul><li>Customer support and sales assistants</li><li>Internal knowledge copilots</li><li>Document and quotation automation</li><li>Human review and escalation controls</li></ul>
+            <a class="capability-deep-link" href="{{ route('ai-bots-agents') }}" aria-label="Explore Custom AI Bots and Agents">Explore AI agents <span aria-hidden="true">↗</span></a>
         </article>
         <article class="capability-card">
             <div class="tech-icon">API</div><span class="card-number">04</span>
