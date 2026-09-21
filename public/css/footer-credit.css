@@ -1,0 +1,26 @@
+.footer-meta {
+    grid-column: 1 / -1;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-top: 1px solid #ffffff26;
+    padding-top: 20px;
+}
+
+.footer-meta p {
+    margin: 0;
+}
+
+.footer-meta a {
+    font-weight: 700;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+@media (max-width: 850px) {
+    .footer-meta {
+        grid-column: 1;
+        flex-direction: column;
+        gap: 4px;
+    }
+}
