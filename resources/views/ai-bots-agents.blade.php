@@ -42,13 +42,18 @@
 <section id="voice-demo" class="agent-demo">
     <div class="agent-section-heading">
         <div><p class="eyebrow">SEE THE SYSTEM IN ACTION</p><h2>From first hello<br>to qualified lead.</h2></div>
-        <p>Watch an illustrative external demonstration of an AI voice agent placing outbound calls, holding a natural conversation and capturing lead information for the sales pipeline.</p>
+        <p>Watch our original concept film show an AI voice agent connecting with leads, holding natural conversations and turning interest into structured sales opportunities.</p>
     </div>
     <div class="demo-stage">
         <div class="demo-video-shell">
             <div class="demo-window-bar"><span><i></i><i></i><i></i></span><b>VOICE AGENT / OUTBOUND DEMO</b><small>SECURE CONNECTION</small></div>
-            <div class="demo-video"><iframe src="https://www.youtube-nocookie.com/embed/2dcusWEZbgI?rel=0&amp;modestbranding=1" title="Demonstration of an AI voice agent making outbound calls and generating leads" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
-            <p class="demo-disclosure">Illustrative third-party demonstration. Your Mugdi solution is custom-designed around your approved scripts, systems, audience and local calling requirements. <a href="https://www.youtube.com/watch?v=2dcusWEZbgI" target="_blank" rel="noopener noreferrer">Watch directly on YouTube ↗</a></p>
+            <div class="demo-video">
+                <video controls autoplay muted loop playsinline preload="metadata" aria-label="Mugdi AI voice agent lead generation demonstration">
+                    <source src="{{ asset('videos/mugdi-ai-agent-demo.mp4') }}?v={{ filemtime(public_path('videos/mugdi-ai-agent-demo.mp4')) }}" type="video/mp4">
+                    Your browser does not support embedded video.
+                </video>
+            </div>
+            <p class="demo-disclosure">An original Mugdi Investments product film showing how a custom AI voice agent can connect with leads, understand intent, qualify opportunities, book meetings and update your sales systems.</p>
         </div>
         <aside class="demo-intelligence">
             <div class="intelligence-head"><span>LIVE INTELLIGENCE</span><i></i></div>

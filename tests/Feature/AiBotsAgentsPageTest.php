@@ -18,7 +18,8 @@ class AiBotsAgentsPageTest extends TestCase
             ->assertSeeText('Sales & Support Bots')
             ->assertSeeText('Internal AI Copilots')
             ->assertSeeText('Autonomous Workflows')
-            ->assertSee('youtube-nocookie.com/embed/2dcusWEZbgI', false)
+            ->assertSee('videos/mugdi-ai-agent-demo.mp4', false)
+            ->assertDontSee('youtube.com', false)
             ->assertSeeText('Powerful AI.')
             ->assertSeeText('Clear boundaries.');
     }
