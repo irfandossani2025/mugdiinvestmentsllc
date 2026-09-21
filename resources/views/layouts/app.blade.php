@@ -7,9 +7,9 @@
     <title>@yield('title', 'Mugdi Investments LLC')</title>
     <meta name="description" content="Corporate gifts, event management and full-stack IT solutions in Oman.">
     <link rel="icon" href="{{ asset('images/mugdi-logo.png') }}">
-    <link rel="stylesheet" href="{{ asset('css/site.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/footer-credit.css') }}">
-    <script defer src="{{ asset('js/site.js') }}"></script>
+    <link rel="stylesheet" href="{{ asset('css/site.css') }}?v={{ filemtime(public_path('css/site.css')) }}">
+    <link rel="stylesheet" href="{{ asset('css/footer-credit.css') }}?v={{ filemtime(public_path('css/footer-credit.css')) }}">
+    <script defer src="{{ asset('js/site.js') }}?v={{ filemtime(public_path('js/site.js')) }}"></script>
 </head>
 <body>
     <header>
