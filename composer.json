@@ -1,10 +1,16 @@
 {
     "$schema": "https://getcomposer.org/schema.json",
-    "name": "laravel/laravel",
+    "name": "mugdi-investments/corporate-website",
     "type": "project",
-    "description": "The skeleton application for the Laravel framework.",
-    "keywords": ["laravel", "framework"],
-    "license": "MIT",
+    "description": "Corporate website and digital service platform for Mugdi Investments LLC.",
+    "keywords": ["mugdi-investments", "corporate-gifts", "event-management", "it-solutions"],
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Irfan Dossani",
+            "homepage": "https://www.irfandossani.online"
+        }
+    ],
     "require": {
         "php": "^8.3",
         "laravel/framework": "^13.17",
@@ -12,9 +18,7 @@
     },
     "require-dev": {
         "fakerphp/faker": "^1.23",
-        "laravel/boost": "^2.9",
         "laravel/pail": "^1.2.5",
-        "laravel/pao": "^1.0.6",
         "laravel/pint": "^1.27",
         "mockery/mockery": "^1.6",
         "nunomaduro/collision": "^8.6",
